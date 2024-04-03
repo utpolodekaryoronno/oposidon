@@ -1,0 +1,395 @@
+
+@media all and (max-width: 1199px){
+	.heading1{
+		font-size: 75px;
+		line-height: 85px; 
+	}
+	.heading2{
+		font-size: 65px;
+		line-height: 70px; 
+	}
+	.pricing_circle .heading2 {
+		font-size: 65px;
+	}
+	.font22 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.banner-area {
+		padding: 200px 0px 70px 0px;
+	}
+	.single-service img {
+		max-width: 100px;
+	}
+	.single-service .font22 {
+		padding-top: 35px;
+	}
+
+	/* Ficha */
+	.flug-item-details > .title {
+		font-size: 20px;
+		margin-bottom: 3px;
+	}
+	.flug-item-details > .subtitle {
+		font-size: 14px;
+	}
+	.flug-single-item {
+		padding: 10px 12px;
+	}
+	.orange-btn-sm{
+		font-size: 15px;
+		padding: 7.5px 13.5px;
+	}
+}
+@media all and (max-width: 1024px){
+	.heading1{
+		font-size: 60px;
+		line-height: 70px; 
+	}
+	.heading2 {
+		font-size: 50px;
+		line-height: 60px; 
+	}
+	.pricing_circle .heading2 {
+		font-size: 50px;
+		padding: 5px 0px;
+	}
+	.heading3{
+		font-size: 35px;
+	}
+	.heading4 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.header-nav nav ul li a {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.header-logo a img {
+		max-width: 200px;
+	}
+	.banner_content_left{
+		flex-basis: 70%;
+	}
+	.banner_content_right{
+		flex-basis: 30%;
+	}
+	.pricing_circle {
+		height: 280px;
+		width: 280px;
+	}
+	.banner_content {
+		gap: 30px 30px;
+	}
+
+}
+@media all and (max-width: 991px){
+	.btn-white {
+		padding: 9px 30px;
+	}
+	.header-nav nav ul li {
+		padding: 0px 25px;
+	}
+	.Service_content{
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.single-service .font22 {
+		padding-top: 20px;
+	}
+
+	/* Ficha */
+	.flug-item-details > .title {
+		font-size: 16px;
+		margin-bottom: 2px;
+	}
+	.flug-item-details > .subtitle {
+		font-size: 12px;
+	}
+	.orange-btn-sm{
+		font-size: 11px;
+		padding: 6px 11px;
+	}
+	.otros-items-area > .title {
+		font-size: 38px;
+	}
+	.lucha_button_item{
+		gap: 6px 10px;
+	}
+	.lucha_content {
+		border-radius: 40px;
+		padding: 30px 35px 40px 35px;
+	}
+	.luchaBtn {
+		padding: 15px 8px;
+		border-radius: 50px;
+		font-size: 16px;
+	}
+}
+@media all and (min-width: 768px){
+	.header-menu{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 767px){
+	/* Mobile menu ----------------------------*/
+	.mobile-menu {
+		display: block;
+	}
+	.header-nav nav{
+		position: absolute;
+		width: calc(100% + 40px);
+		top: calc(100% - 60px);
+		left: -20px;
+		background: #3B43FE;
+		height: 100vh;
+		z-index: 1;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		padding:40px 0;
+		padding-top: 120px;
+		box-sizing: border-box;
+		text-align: center;
+		display: none;
+		z-index: -9;
+	}	 
+
+	.header-nav nav ul{
+		flex-direction: column;	
+		gap: 25px;
+	}
+	.header-nav .btn-white {
+		margin-left: 0px;
+	}
+	.border-left{
+		border-left: 0px solid #000;
+	}
+
+	.loginMobile{
+		display: block;
+		margin-right: 53px;
+	}
+	.header-nav nav ul li .btn{
+		display: none;
+	}
+
+
+
+	.banner-area{
+		background: url("../images/mobile-banner.png")no-repeat scroll center center / cover;
+		background-size: 100% 100%;
+	}
+	.header-main {
+		padding: 28px 0px;
+	}
+	.banner_content_left .heading4.mb-5{
+		margin-bottom: 20px !important;
+	}
+	.banner_content {
+		flex-direction: column;
+		align-items: inherit;
+		gap: 0px 30px;
+	}
+
+	.Card-car-content{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.Card-car-content .single-card-car:last-child{
+		grid-column: span 2;
+	}
+	.Service_content{
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.single-service .font22 {
+		padding-top: 15px;
+	}
+	.single-service .font22 br{
+		display: none;
+	}
+	.single-service img {
+		max-width: 80px;
+	}
+
+	.Service-area {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.Card-car-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.card-btn {
+		font-size: 18px;
+	}
+	.pricing_circle {
+		height: 243px;
+		width: 243px;
+	}
+
+	.banner-content2 img {
+		max-width: 280px;
+	}
+	.banner_content_left .desktop-img{
+		display: none;
+	}
+	.banner_content_left .mobile-img {
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+	.banner-content2 .banner_content_right{
+		margin-top: 170px;
+	}
+
+	.banner-content2{
+		margin-top: -30px;
+	}
+
+	/* Ficha */
+	.ficha-price-card .title {
+		font-size: 57px;
+		line-height: 93px;
+	}
+	.ficha-price-card .info {
+		font-size: 28px;
+		line-height: 37px;
+		margin-bottom: 25px;
+	}
+	.curso-list-wrap{
+		flex-direction: column;
+	}
+	.curso-list-area .title {
+		font-size: 32px;
+	}
+	.curso-list-area .subtitle {
+		font-size: 21px;
+	}	
+
+	.flug-single-item {
+		padding: 8px 10px;
+	}
+	.otros-list{
+		flex-direction: column;
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	.otros-items-area > .title {
+		font-size: 32px;
+	}
+	.lucha_button_item{
+		grid-template-columns: repeat(2, 1fr);
+		gap: 6px 27px;
+	}
+
+	#scroll-down-animation{
+		display: block;
+	}
+	
+}
+
+@media all and (max-width:575px){
+	.heading1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+	.heading2 {
+		font-size: 35px;
+		line-height: 45px; 
+	}
+	.card-btn {
+		font-size: 16px;
+	}
+	.btn {
+		font-size: 18px !important;
+	}
+	.btn-white {
+		padding: 9px 20px;
+	}
+	.loginMobile {
+		margin-right: 40px;
+	}
+	.Card-car-content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.Card-car-content .single-card-car:last-child {
+		grid-column: span 1;
+	}
+	.Card-car-area {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.Service_content{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	
+	.font22 {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.banner-content2 .banner_content_left .heading4{
+		max-width: 150px;
+	}
+	.banner-content2 img {
+		max-width: 210px;
+	}
+	.banner-content2 .banner_content_right {
+		margin-top: 45px;
+	}
+
+
+	/* Ficha */
+	.ficha-price-card{
+		max-width: 350px;
+		margin: 0 auto;
+	}
+	.orange-btn {
+		min-width: 191px;
+		font-size: 19px;
+	}
+	.curso-list-area{
+		padding: 56px 20px 30px 20px;
+	}
+	.curso-list-area .title {
+		font-size: 28px;
+		margin-bottom: 25px;
+	}
+	.curso-list-area .subtitle {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	.otros-items-area > .title {
+		font-size: 27px;
+	}
+	.lucha_button_item{
+		gap: 6px 15px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.mobileNone{
+		display: none;
+	}
+	.luchaBtn{
+		max-width: 400px;
+		margin: auto;
+	}
+	.font30{
+		font-size: 28px;
+	}
+	.font23 {
+		font-size: 18px;
+	}
+	.font18 {
+		font-size: 16px;
+	}
+}
+
+
+@media all and (max-width:450px){
+	.header-logo a img {
+		max-width: 180px;
+	}
+}
+
+
+@media all and (max-width:375px){
+
+}
