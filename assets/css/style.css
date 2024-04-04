@@ -235,9 +235,22 @@ img{
 
 /* Banner Area Start */
 .banner-area{
+  position: relative;
   padding: 280px 0px 70px 0px;
-  background: url("../images/banner.png")no-repeat scroll center center / cover;
-  /* background-size: 100% 100%; */
+  background: #3B43FE;
+  z-index: 99999;
+}
+
+.banner-area::after{
+  position: absolute;
+  content: "";
+  height: 83%;
+  width: 65%;
+  left: 0;
+  bottom: 0;
+  background: url("../images/banner-shep.png")no-repeat scroll center center / cover;
+  background-size: 100% 100%;
+  z-index: -99;
 }
 .banner_content{
   display: flex;
